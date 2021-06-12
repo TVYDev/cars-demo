@@ -1,47 +1,52 @@
 [
   {
     "id": "41ab4f7c-5bf1-482e-ac8b-86bd6ce3605f",
-    "model": "X",
+    "model": "Tesla Model X",
     "image_url": "",
-    "number_in_stock": 0,
-    "unit_price": 0,
+    "stocks": 100,
+    "price": 100000,
     "discount_in_percent": 0,
-    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1"
+    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1",
+    "released_year": "2018"
   },
   {
     "id": "120324a4-1e20-47e3-b2f6-b6df9ed98d37",
-    "model": "S",
+    "model": "Tesla Model S",
     "image_url": "",
-    "number_in_stock": 0,
-    "unit_price": 0,
+    "stocks": 90,
+    "price": 65000,
     "discount_in_percent": 0,
-    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1"
+    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1",
+    "released_year": "2017"
   },
   {
     "id": "fff02f6c-49be-4e1d-b661-fdb3cae254c4",
-    "model": "3",
+    "model": "Tesla Model 3",
     "image_url": "",
-    "number_in_stock": 0,
-    "unit_price": 0,
+    "stocks": 50,
+    "price": 70000,
     "discount_in_percent": 0,
-    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1"
+    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1",
+    "released_year": "2015"
   },
   {
     "id": "1aff0c5e-0682-48c5-86ce-9fec47da0a2e",
-    "model": "Q8",
+    "model": "Audi Q8",
     "image_url": "",
-    "number_in_stock": 0,
-    "unit_price": 0,
+    "stocks": 40,
+    "price": 40000,
     "discount_in_percent": 0,
-    "brand_id": "5293fff4-5d46-4c8b-b592-729be79f2330"
+    "brand_id": "5293fff4-5d46-4c8b-b592-729be79f2330",
+    "released_year": "2016"
   },
   {
     "id": "fd5ae845-e5c8-49db-ba1d-90a18538f1b0",
-    "model": "i8",
+    "model": "BMW i8",
     "image_url": "",
-    "number_in_stock": 0,
-    "unit_price": 0,
+    "stocks": 80,
+    "price": 150000,
     "discount_in_percent": 0,
-    "brand_id": "078ef479-1515-4b30-acb9-bd4d8ec25bb7"
+    "brand_id": "078ef479-1515-4b30-acb9-bd4d8ec25bb7",
+    "released_year": "2019"
   }
 ]
