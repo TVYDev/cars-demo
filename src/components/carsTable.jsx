@@ -6,15 +6,22 @@ import { transformFetchingData } from '../utils/transformer';
 
 const CarsTable = () => {
   const [cars, setCars] = useState([]);
+  const [pagination, setPagination] = useState({});
 
   useEffect(() => {
-    async function fetchCars() {
-      const cars = await getCars();
-      setCars(transformFetchingData(cars));
-    }
-
     fetchCars();
   }, []);
+
+  const fetchCars = async (page) => {
+    const response = await getCars(page);
+    const { data, pagination } = transformFetchingData(response);
+    setCars(data);
+    setPagination(pagination);
+  };
+
+  const handlePageChange = (page) => {
+    fetchCars(page);
+  };
 
   const tableHeaders = [
     {
@@ -36,7 +43,15 @@ const CarsTable = () => {
     },
   ];
 
-  return <Table headers={tableHeaders} items={cars} isIncludedNo />;
+  return (
+    <Table
+      headers={tableHeaders}
+      items={cars}
+      isIncludedNo
+      pagination={pagination}
+      onPageChange={handlePageChange}
+    />
+  );
 };
 
 export default CarsTable;
