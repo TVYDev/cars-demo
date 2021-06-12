@@ -48,5 +48,55 @@
     "discount_in_percent": 0,
     "brand_id": "078ef479-1515-4b30-acb9-bd4d8ec25bb7",
     "released_year": "2019"
+  },
+  {
+    "id": "b54cd466-6df5-4f4c-9f8a-053cc9418bff",
+    "model": "Tesla Model Y",
+    "image_url": "",
+    "stocks": 180,
+    "price": 110000,
+    "discount_in_percent": 0,
+    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1",
+    "released_year": "2019"
+  },
+  {
+    "id": "593a25bc-9378-4715-9fbc-489f449ad06b",
+    "model": "Tesla Semi Truck",
+    "image_url": "",
+    "stocks": 20,
+    "price": 350000,
+    "discount_in_percent": 0,
+    "brand_id": "09e9a9aa-c39f-430d-9393-92cd28cb39d1",
+    "released_year": "2019"
+  },
+  {
+    "id": "ea6267ec-7a84-4822-aa85-6d03887e5240",
+    "model": "BMW X7",
+    "image_url": "",
+    "stocks": 50,
+    "price": 380000,
+    "discount_in_percent": 0,
+    "brand_id": "078ef479-1515-4b30-acb9-bd4d8ec25bb7",
+    "released_year": "2019"
+  },
+  {
+    "id": "4a759c4c-2217-4849-ab1b-53d4ee9545f4",
+    "model": "Audi R8",
+    "image_url": "",
+    "stocks": 70,
+    "price": 250000,
+    "discount_in_percent": 0,
+    "brand_id": "5293fff4-5d46-4c8b-b592-729be79f2330",
+    "released_year": "2019"
+  },
+  {
+    "id": "bf1b152e-84a4-4646-9bdd-32d4391712a8",
+    "model": "Audi e-tron",
+    "image_url": "",
+    "stocks": 80,
+    "price": 300000,
+    "discount_in_percent": 0,
+    "brand_id": "5293fff4-5d46-4c8b-b592-729be79f2330",
+    "released_year": "2019"
   }
 ]
